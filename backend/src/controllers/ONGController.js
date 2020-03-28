@@ -22,6 +22,6 @@ module.exports = {
       uf,
     });
 
-    return res.json({ id });
+    return res.status(201).json({ id });
   },
 };
