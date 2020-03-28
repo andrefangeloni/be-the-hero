@@ -13,9 +13,9 @@ const Login = () => {
         <img src={logo} alt="Be The Hero" />
 
         <form>
-          <h1>Faça seu pedido</h1>
+          <h1>Faça seu login</h1>
           <input placeholder="Sua ID" />
-          <button type="submit">Entrar</button>
+          <button type="submit" className="button">Entrar</button>
 
           <a href="/register">
             <FiLogIn size={16} color="#e02041" />
