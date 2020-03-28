@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Login from './pages/Login/Login';
+
 import './global.css';
 
 const App = () => {
-  return <h1>Hello World!</h1>;
-}
+  return <Login />;
+};
 
 export default App;
