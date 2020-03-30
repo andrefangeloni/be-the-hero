@@ -3,13 +3,15 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
+import Profile from './pages/Profile/Profile';
 
 const Routes = () => {
   return (
     <BrowserRouter>
       <Switch>
         <Route path="/" exact component={Login} />
-        <Route path="/" component={Register} />
+        <Route path="/register" component={Register} />
+        <Route path="/profile" component={Profile} />
       </Switch>
     </BrowserRouter>
   );
