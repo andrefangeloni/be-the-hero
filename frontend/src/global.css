@@ -32,6 +32,18 @@ form input {
   color: #333;
 }
 
+form textarea {
+  width: 100%;
+  min-height: 140px;
+  height: 60px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #dcdce6;
+  color: #333;
+
+  resize: none;
+}
+
 .button {
   width: 100%;
   height: 60px;

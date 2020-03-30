@@ -4,11 +4,11 @@ import { FiPower, FiTrash2 } from 'react-icons/fi';
 
 import logo from '../../assets/logo.svg';
 
-import './Profile.css';
+import './Home.css';
 
-const Profile = () => {
+const Home = () => {
   return (
-    <div className="profile-container">
+    <div className="home-container">
       <header>
         <img src={logo} alt="Be The Hero" />
         <span>Bem vinda, APAD</span>
@@ -85,4 +85,4 @@ const Profile = () => {
   );
 };
 
-export default Profile;
+export default Home;
