@@ -25,8 +25,10 @@ const Details = () => {
   const message =
     `Olá, ${item.name}. Estou entrando em contato, pois gostaria de ` +
     `ajudar no caso "${item.title}", com o valor de ${Intl.NumberFormat(
-      'pt-BR', { style: 'currency', currency: 'BRL' }).format(item.value)}`;
-  
+      'pt-BR',
+      { style: 'currency', currency: 'BRL' },
+    ).format(item.value)}`;
+
   const emailUrl = `mailto:${item.email}?subject=${subject}&body=${message}`;
   const whatsAppUrl = `whatsapp://send?text=${message}&phone=${item.whatsapp}`;
 

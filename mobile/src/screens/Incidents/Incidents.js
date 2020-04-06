@@ -19,17 +19,33 @@ import styles from './styles';
 const Incidents = () => {
   const [incidents, setIncidents] = useState([]);
   const [totalCases, setTotalCases] = useState([]);
+  const [page, setPage] = useState(1);
+  const [isLoading, setIsLoading] = useState(false);
 
   const navigation = useNavigation();
 
-  const navigateToDetails = incident => {
+  const navigateToDetails = (incident) => {
     navigation.navigate('Details', { incident });
   };
 
   const loadIncidents = async () => {
-    const { data, headers } = await api.get('/incidents');
-    setIncidents(data);
+    if (isLoading) {
+      return;
+    }
+
+    if (totalCases > 0 && totalCases === incidents.length) {
+      return;
+    }
+
+    setIsLoading(true);
+
+    const { data, headers } = await api.get('/incidents', {
+      params: { page }
+    });
+    setIncidents([...incidents, ...data]);
     setTotalCases(headers['x-total-count']);
+    setPage(page + 1);
+    setIsLoading(false);
   };
 
   useEffect(() => {
@@ -54,6 +70,8 @@ const Incidents = () => {
         data={incidents}
         style={styles.incidentList}
         showsVerticalScrollIndicator={false}
+        onEndReached={() => loadIncidents()}
+        onEndReachedThreshold={0.2}
         keyExtractor={(incident) => incident.id.toString()}
         renderItem={({ item }) => (
           <View style={styles.incident}>
