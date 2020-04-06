@@ -32,7 +32,7 @@ const Incidents = () => {
 
       <Text style={styles.title}>Bem-vindo!</Text>
       <Text style={styles.description}>
-        Escolhe um dos casos abaixo e salve o dia.
+        Escolha um dos casos abaixo e salve o dia.
       </Text>
 
       <FlatList
