@@ -30,7 +30,7 @@ const Details = () => {
     ).format(item.value)}`;
 
   const emailUrl = `mailto:${item.email}?subject=${subject}&body=${message}`;
-  const whatsAppUrl = `whatsapp://send?text=${message}&phone=${item.whatsapp}`;
+  const whatsAppUrl = `whatsapp://send?text=${message}&phone=55${item.whatsapp}`;
 
   const navigateBack = () => {
     navigation.goBack();
