@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiPower, FiTrash2 } from 'react-icons/fi';
 
@@ -16,20 +16,20 @@ const Home = () => {
   const ongId = localStorage.getItem('ongId');
   const ongName = localStorage.getItem('ongName');
 
-  useEffect(() => {
-    loadIncidents();
-  }, []);
-
-  const loadIncidents = async () => {
+  const loadIncidents = useCallback(async () => {
     const { data } = await api.get('/profile', {
       headers: {
         Authorization: ongId,
       },
     });
     setIncidents(data);
-  };
+  }, [ongId]);
 
-  const handleDeleteIncident = async id => {
+  useEffect(() => {
+    loadIncidents();
+  }, [loadIncidents]);
+
+  const handleDeleteIncident = async (id) => {
     try {
       await api.delete(`/incidents/${id}`, {
         headers: {
@@ -47,7 +47,7 @@ const Home = () => {
     localStorage.clear();
 
     history.push('/');
-  }
+  };
 
   return (
     <div className="home-container">
@@ -65,7 +65,7 @@ const Home = () => {
       <h1>Casos cadastrados</h1>
 
       <ul>
-        {incidents.map(incident => (
+        {incidents.map((incident) => (
           <li key={incident.id}>
             <strong>CASO:</strong>
             <p>{incident.title}</p>
