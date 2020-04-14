@@ -39,7 +39,7 @@ const Login = () => {
           <input
             value={id}
             onChange={e => setId(e.target.value)}
-            placeholder="Sua ID"
+            placeholder="Digite seu ID"
           />
           <button type="submit" className="button">
             Entrar

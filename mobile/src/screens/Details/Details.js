@@ -77,7 +77,7 @@ const Details = () => {
         </Text>
 
         <Text style={styles.incidentProperty}>CASO:</Text>
-        <Text style={styles.incidentValue}>{item.title}</Text>
+        <Text style={styles.incidentValue}>{item.description}</Text>
 
         <Text style={styles.incidentProperty}>VALOR:</Text>
         <Text style={styles.incidentValue}>

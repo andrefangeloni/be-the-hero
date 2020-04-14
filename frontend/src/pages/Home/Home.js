@@ -53,7 +53,7 @@ const Home = () => {
     <div className="home-container">
       <header>
         <img src={logo} alt="Be The Hero" />
-        <span>Bem vinda, {ongName}</span>
+        <span>Bem-vindo, {ongName}</span>
         <Link className="button" to="/incidents/new">
           Cadastrar novo caso
         </Link>
