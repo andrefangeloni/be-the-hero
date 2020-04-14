@@ -22,17 +22,17 @@ Application developed together with [Rocketseat](https://rocketseat.com.br)</p>
 <hr />
 
 ## Getting started - Backend
-<img src="screenshots/getting-started/backend.png" />
+<img src="screenshots/getting-started/backend.png" height="400" width="600" />
 <hr />
 
 ## :computer: Getting started the frontend 
-<img src="screenshots/getting-started/frontend.png" />
+<img src="screenshots/getting-started/frontend.png" height="400" width="600" />
 <hr />
 
 ## :iphone: Getting started the mobile 
 :warning: Assuming that you've already the [Environment Setup](https://reactnative.dev/docs/environment-setup) for React Native CLI Quickstart
 
-<img src="screenshots/getting-started/mobile.png" />
+<img src="screenshots/getting-started/mobile.png" height="990" width="600" />
 <hr/>
 
 # :mortar_board: License
