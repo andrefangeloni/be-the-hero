@@ -15,7 +15,7 @@ Application developed together with [Rocketseat](https://rocketseat.com.br)</p>
   - [Mobile](#mobile)
 - [Getting Started](#getting-started)
   - [Requeriments](#requeriments)
-    - [Node.js](#node.js-10.14.2-or-greater)
+    - [Node.js](#node.js)
     - [Yarn](#yarn-optional)
   - [Backend](#backend)
   - [Frontend](#computer-frontend)
@@ -48,7 +48,7 @@ Click to expand <br />
 
 ## Requeriments
 
-- #### [Node.js](https://nodejs.org) (10.14.2 or greater)
+- #### [Node.js](https://nodejs.org)
 - #### [Yarn](https://yarnpkg.com) (optional)
 
 ### Backend
