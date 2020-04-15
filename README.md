@@ -10,16 +10,16 @@ Application developed together with [Rocketseat](https://rocketseat.com.br)</p>
 
 # Table of Contents
 
-- [Screenshots](#screenshots)
+- [Screenshots](#camera-screenshots)
   - [Web](#web)
   - [Mobile](#mobile)
-- [Installation](#installation)
-  - [Node.js](#node.js-10.14.2-or-greater)
-  - [Yarn](#yarn-optional)
 - [Getting Started](#getting-started)
+  - [Requeriments](#requeriments)
+    - [Node.js](#node.js-10.14.2-or-greater)
+    - [Yarn](#yarn-optional)
   - [Backend](#backend)
-  - [Frontend](#frontend)
-  - [Mobile](#mobile)
+  - [Frontend](#computer-frontend)
+  - [Mobile](#iphone-mobile)
 - [Built With](#built-with)
   - [API](#api)
   - [Website](#website)
@@ -27,33 +27,41 @@ Application developed together with [Rocketseat](https://rocketseat.com.br)</p>
 - [LICENSE](#mortar_board-license)
 - [Author](#author)
 
-# Screenshots
+# :camera: Screenshots
 
-## :camera: Choose project and click to see screenshots
+- #### Web
 
-- #### [Web](https://github.com/andrefangeloni/be-the-hero/tree/master/frontend)
-- #### [Mobile](https://github.com/andrefangeloni/be-the-hero/tree/master/mobile)
+  Click to expand <br />
+  <img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/frontend/src/assets/GitHub/Login.png" width="49%"/>
+  <img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/frontend/src/assets/GitHub/Register.png" width="49%"/>
+  <img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/frontend/src/assets/GitHub/Home.png" width="49%"/>
+  <img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/frontend/src/assets/GitHub/AddCase.png" width="49%"/>
 
-# Installation
+- #### Mobile
 
-## :electric_plug: Requeriments
+Click to expand <br />
+<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/mobile/src/assets/GitHub/Splash.png" width="32%" />
+<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/mobile/src/assets/GitHub/Home.png" width="32%"/>
+<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/mobile/src/assets/GitHub/Details.png" width="32.5%"/>
+
+# Getting started
+
+## Requeriments
 
 - #### [Node.js](https://nodejs.org) (10.14.2 or greater)
 - #### [Yarn](https://yarnpkg.com) (optional)
 
-# Getting started
-
-## Backend
+### Backend
 
 <img src="screenshots/getting-started/backend.png" height="400" width="600" />
 <hr />
 
-## Frontend
+### :computer: Frontend
 
 <img src="screenshots/getting-started/frontend.png" height="400" width="600" />
 <hr />
 
-## Mobile
+### :iphone: Mobile
 
 :warning: Assuming that you've already the [Environment Setup](https://reactnative.dev/docs/environment-setup) for React Native CLI Quickstart
 
