@@ -40,7 +40,7 @@ Application developed together with [Rocketseat](https://rocketseat.com.br)</p>
 - #### Mobile
 
 Click to expand <br />
-<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/mobile/src/assets/GitHub/Splash.png" width="32%" />
+<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/mobile/src/assets/GitHub/Splash.jpg" width="32%" />
 <img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/mobile/src/assets/GitHub/Home.png" width="32%"/>
 <img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/mobile/src/assets/GitHub/Details.png" width="32.5%"/>
 
