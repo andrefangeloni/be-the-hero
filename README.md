@@ -54,13 +54,13 @@ Click to expand <br />
 ### Backend
 
 Click to expand <br />
-<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/screenshots/getting-started/backend.png" width="50%" />
+<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/screenshots/backend.png" width="50%" />
 <hr />
 
 ### :computer: Frontend
 
 Click to expand <br />
-<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/screenshots/getting-started/frontend.png" width="50%" />
+<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/screenshots/frontend.png" width="50%" />
 <hr />
 
 ### :iphone: Mobile
@@ -68,7 +68,7 @@ Click to expand <br />
 :warning: Assuming that you've already the [Environment Setup](https://reactnative.dev/docs/environment-setup) for React Native CLI Quickstart
 
 Click to expand <br />
-<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/screenshots/getting-started/mobile.png" width="50%" />
+<img src="https://raw.githubusercontent.com/andrefangeloni/be-the-hero/master/screenshots/mobile.png" width="50%" />
 <hr/>
 
 # Built With
